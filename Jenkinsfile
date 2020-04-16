@@ -15,8 +15,8 @@ pipeline {
         stage('Deploy DEV') {
             environment {
                 //change here
-                SERVER_PORT = "8000"
-                GROUP_ID = "sample"
+                SERVER_PORT = "8002"
+                GROUP_ID = "xiangyun"
                 //---------------
 
                 ARTIFACT_ID = "make-it-cry"
